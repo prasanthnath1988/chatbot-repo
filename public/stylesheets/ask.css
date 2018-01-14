@@ -1,0 +1,63 @@
+
+.wc-console {
+  border: 1px solid #dcd6d6;
+    bottom: 0;
+    height:10%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    background: #fff;
+  }
+
+/* console */
+.wc-console > * {
+  position: absolute;
+  top: 0;
+  vertical-align: middle; }
+
+.wc-console label {
+  cursor: pointer;
+  display: inline-block;
+  height: 48px;
+  background-color: #ffff; 
+  margin: 8px;
+}
+
+.wc-console svg {
+  fill: #FFFF;
+  margin: 15px; }
+
+.wc-console textarea, .wc-console input[type=text] {
+  border: none;
+  height: 100%;
+  outline: none;
+  padding: 0;
+  resize: none;
+  width: 104%; }
+
+.wc-send img {
+
+  width: 36px; }
+
+.wc-upload svg {
+  height: 18px;
+  width: 26px; }
+
+#wc-upload-input {
+  display: none; }
+
+.wc-textbox {
+  bottom: 0;
+  left: 48px;
+  right: 49px; }
+
+.wc-send {
+  right: 0; }
+
+.wc-console.has-text .wc-send svg {
+  fill: #3a96dd; }
+
+/*.wc-shellinput{
+  width: 693px;
+}
+ */     

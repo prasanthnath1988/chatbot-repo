@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%=title%></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="stylesheets/botui.min.css" />
+    <link rel="stylesheet" href="stylesheets/botui-theme-default.css" />
+    <%# Custom StyleSheet for Black Color (Totally Optional)%>
+    <link rel="stylesheet" href="stylesheets/black.css" />
+    <link rel="stylesheet" href="stylesheets/ask.css" />
+  </head>
+  <body>
+      <%# Bot Declaration%>
+    <div class="botui-app-container" id="api-bot">
+
+
+      <bot-ui></bot-ui>
+    </div>
+    <div class="wc-console">
+        <input type="file" id="wc-upload-input" multiple="">
+        <label class="wc-upload" id="rec">
+           <img src='img/mic_stop.png'  height='35' width='35'/>
+        </label>
+        <div class="wc-textbox">
+            <input id="input" type="text" class="wc-shellinput" value="" placeholder=" Type a message">
+        </div>
+        <label class="wc-send">
+            <img src="img/send-icon.png" height='35' width='35'>
+        </label>
+    </div>
+
+    <%# JS STUFF%>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <%# Edit the Conversation from Convo.js%>
+    <script src="javascripts/audio.js"></script>
+    <script src="javascripts/convo.js"></script>
+    <script src="javascripts/socket.js"></script>
+  </body>
+</html>

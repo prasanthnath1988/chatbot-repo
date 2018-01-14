@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Trebuchet+MS');
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Trebuchet MS;
+}
+
+body {
+  background-color: #095caa;
+  
+}
+
+iframe {
+  width: 100%;
+}
+
+.botui-app-container {
+  margin-top: 580px;
+  width: 100%;
+  margin: 0px auto;
+  line-height: 3;
+
+}
+.botui-message-content.text{
+  word-wrap: break-word;
+}
+
+
+.botui-container {
+  
+  background-color:#FFFFFF;
+   margin-top: 45px;
+  min-height: 109%;
+    position: relative;
+}
+.botui-message-content {  
+  background-color: #7bc144}
+
+.botui-message-content.human {
+  background-color: #8cc739}
+
+.botui-actions-text-input {
+  border-bottom: 1px solid #6b34db;
+}
+
+.botui-actions-buttons-button {
+  margin: 2px;
+  line-height: 1 !important;
+  background-color: #447d16;
+}
+
+.botui-message-content-link {
+  color: #F1C40F;
+}
+
+.promessage{
+  text-align: center;
+}
+
+.prounhide{
+  text-align: center;
+
+}
+
+/*.botui-container{
+  margin-top: 38px;
+height: 569px;
+}*/
+
+
+//
